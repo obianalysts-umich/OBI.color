@@ -12,15 +12,6 @@ don’t have to use hex to define colors.
 
 The OBI style colors are based on OBI Style Guide
 
-## Naming convention
-
-Color names are based on this document.
-
-- All three primary colors are named as `prim_`, and are combines in
-  `primary_colors_3()`
-- Six secondary colors are in `secondary_colors_6()`
-- Seven tertiary colors are in `tertiary_colors_7()`
-
 ## Installation
 
 Install the development version directly from GitHub:
@@ -29,6 +20,15 @@ Install the development version directly from GitHub:
 # install.packages("devtools")
 devtools::install_github("obianalysts-umich/OBI.color")
 ```
+
+## Naming convention
+
+Color names are based on this document.
+
+- All three primary colors are named as `prim_`, and are combines in
+  `primary_colors_3()`
+- Six secondary colors are in `secondary_colors_6()`
+- Seven tertiary colors are in `tertiary_colors_7()`
 
 ## Example: Use 3 primary colors
 
