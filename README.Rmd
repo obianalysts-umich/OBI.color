@@ -32,13 +32,22 @@ Color names are based on this document.
 - Seven tertiary colors are in `tertiary_colors_7()`
 
 
+## Installation
+
+Install the development version directly from GitHub:
+
+```{r install, eval=FALSE}
+# install.packages("devtools")
+devtools::install_github("obianalysts-umich/OBI.color")
+```
+
 ## Color Palette
 
 This is a basic example which shows you how to solve a common problem:
 
 ### Primary Colors
 
-```{r}
+```{r, fig.width = 1, fig.height = 1}
 library(OBI.color)
 
 primary_colors_3(show_color = T)
@@ -47,13 +56,13 @@ primary_colors_3(show_color = T)
 
 ### Secondary colors
 
-```{r}
+```{r, fig.width = 1, fig.height = 1}
 secondary_colors_6(show_color = T)
 ```
 
 ### Tertiary colors
 
-```{r}
+```{r, fig.width = 1, fig.height = 1}
 tertiary_colors_7(show_color = T)
 ```
 

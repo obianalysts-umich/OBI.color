@@ -21,6 +21,15 @@ Color names are based on this document.
 - Six secondary colors are in `secondary_colors_6()`
 - Seven tertiary colors are in `tertiary_colors_7()`
 
+## Installation
+
+Install the development version directly from GitHub:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("obianalysts-umich/OBI.color")
+```
+
 ## Color Palette
 
 This is a basic example which shows you how to solve a common problem:
@@ -62,7 +71,7 @@ tertiary_colors_7(show_color = T)
 ``` r
 library(tidyverse)
 #> ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
-#> ✔ ggplot2 3.3.6      ✔ purrr   0.3.4 
+#> ✔ ggplot2 3.4.0      ✔ purrr   0.3.4 
 #> ✔ tibble  3.1.8      ✔ dplyr   1.0.10
 #> ✔ tidyr   1.2.1      ✔ stringr 1.4.1 
 #> ✔ readr   2.1.2      ✔ forcats 0.5.2 
