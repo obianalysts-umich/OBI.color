@@ -16,8 +16,8 @@ knitr::opts_chunk$set(
 
 # OBI.color
 
-<!-- badges: start -->
-<!-- badges: end -->
+OBI Style guidance document is [HERE](files/OBI Style Guide_Winter 2022.pdf)
+
 
 The goal of OBI.color is to put OBI style colors in one place, so we don't have to use hex to define colors.
 
@@ -41,34 +41,10 @@ Install the development version directly from GitHub:
 devtools::install_github("obianalysts-umich/OBI.color")
 ```
 
-## Color Palette
-
-This is a basic example which shows you how to solve a common problem:
-
-### Primary Colors
-
-```{r, fig.width = 1, fig.height = 1}
-library(OBI.color)
-
-primary_colors_3(show_color = T)
-```
-
-
-### Secondary colors
-
-```{r, fig.width = 1, fig.height = 1}
-secondary_colors_6(show_color = T)
-```
-
-### Tertiary colors
-
-```{r, fig.width = 1, fig.height = 1}
-tertiary_colors_7(show_color = T)
-```
-
-## Use color
+## Example: Use 3 primary colors
 
 ```{r}
+library(OBI.color)
 library(tidyverse)
 ggplot(data = iris,
       aes(x = Sepal.Length, y = Petal.Length, color = Species)) +
@@ -77,6 +53,40 @@ ggplot(data = iris,
  scale_color_manual(values = primary_colors_3()) +
  theme_minimal()
 ```
+
+
+## Color Palette
+
+This is a basic example which shows you how to solve a common problem:
+
+### Primary Colors
+
+3 colors : "#0B3357" "#5062A5" "#79AEA3"
+
+
+```{r, fig.width = 1, fig.height = 1}
+p = primary_colors_3(show_color = T)
+```
+
+
+### Secondary colors
+
+6 colors : "#AB91A5" "#7492BF" "#98C1D9" "#CAC4CE" "#FCDB88" "#F8F4E9"
+
+```{r, fig.width = 1, fig.height = 1, comment=T}
+s = secondary_colors_6(show_color = T)
+
+```
+
+### Tertiary colors
+
+7 colors : "#BDD9BF" "#929084" "#FFC857" "#A997DF" "#E5323B" "#FCB2A7" "#2E4052"
+
+```{r, fig.width = 1, fig.height = 1}
+t = tertiary_colors_7(show_color = T)
+```
+
+
 
 
 
