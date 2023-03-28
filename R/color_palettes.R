@@ -54,7 +54,7 @@ all_colors <- function(show_color = F){
           secondary_colors_5())
 
   # display color
-  if(show_color){scales::show_col(pal, labels = F, n= 8)}
+  if(show_color){scales::show_col(pal, labels = F, n= 9)}
 
   return(pal)
 }
