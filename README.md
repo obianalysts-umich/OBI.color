@@ -4,8 +4,7 @@
 
 # OBI.color
 
-OBI Style guidance document is
-[HERE](files/OBI%20Style%20Guide_Winter%202022.pdf)
+OBI Style guidance document is [HERE](files/obicolors_NEW_2023.pdf)
 
 The goal of OBI.color is to put OBI style colors in one place, so we
 don’t have to use hex to define colors.
@@ -26,28 +25,30 @@ devtools::install_github("obianalysts-umich/OBI.color")
 Color names are based on this document.
 
 - All three primary colors are named as `prim_`, and are combines in
-  `primary_colors_3()`
-- Six secondary colors are in `secondary_colors_6()`
-- Seven tertiary colors are in `tertiary_colors_7()`
+  `primary_colors_4()`
+- Six secondary colors are in `secondary_colors_5()`
 
-## Example: Use 3 primary colors
+## Example: Use 4 primary colors
 
 ``` r
 library(OBI.color)
 library(tidyverse)
-#> ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
-#> ✔ ggplot2 3.4.0      ✔ purrr   0.3.4 
-#> ✔ tibble  3.1.8      ✔ dplyr   1.0.10
-#> ✔ tidyr   1.2.1      ✔ stringr 1.4.1 
-#> ✔ readr   2.1.2      ✔ forcats 0.5.2 
+#> ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+#> ✔ dplyr     1.1.1     ✔ readr     2.1.4
+#> ✔ forcats   1.0.0     ✔ stringr   1.5.0
+#> ✔ ggplot2   3.4.1     ✔ tibble    3.2.1
+#> ✔ lubridate 1.9.2     ✔ tidyr     1.3.0
+#> ✔ purrr     1.0.1     
 #> ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 #> ✖ dplyr::filter() masks stats::filter()
 #> ✖ dplyr::lag()    masks stats::lag()
+#> ℹ Use the ]8;;http://conflicted.r-lib.org/conflicted package]8;; to force all conflicts to become errors
+
 ggplot(data = iris,
       aes(x = Sepal.Length, y = Petal.Length, color = Species)) +
  geom_point() +
  # use OBI colors
- scale_color_manual(values = primary_colors_3()) +
+ scale_color_manual(values = primary_colors_4()) +
  theme_minimal()
 ```
 
@@ -59,32 +60,31 @@ This is a basic example which shows you how to solve a common problem:
 
 ### Primary Colors
 
-3 colors : “\#0B3357” “\#5062A5” “\#79AEA3”
+4 colors : “\#1e3668” “\#3277b0” “\#811e4d” “\#009395”
 
 ``` r
-p = primary_colors_3(show_color = T)
+p = primary_colors_4(show_color = T)
 ```
 
 <img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
 
 ### Secondary colors
 
-6 colors : “\#AB91A5” “\#7492BF” “\#98C1D9” “\#CAC4CE” “\#FCDB88”
-“\#F8F4E9”
+5 colors : “\#f8b434” “\#b64083” “\#40144c” “\#60b0e2” “\#085068”
 
 ``` r
-s = secondary_colors_6(show_color = T)
+s = secondary_colors_5(show_color = T)
 ```
 
 <img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
 
-### Tertiary colors
+### all colors
 
-7 colors : “\#BDD9BF” “\#929084” “\#FFC857” “\#A997DF” “\#E5323B”
-“\#FCB2A7” “\#2E4052”
+7 colors : “\#1e3668” “\#3277b0” “\#811e4d” “\#009395” “\#f8b434”
+“\#b64083” “\#40144c” “\#60b0e2” “\#085068”
 
 ``` r
-t = tertiary_colors_7(show_color = T)
+t = all_colors(show_color = T)
 ```
 
 <img src="man/figures/README-unnamed-chunk-5-1.png" width="100%" />
