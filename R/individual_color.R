@@ -54,9 +54,59 @@ prim_teal <- function(show_color = F) {
 }
 
 
-# to do if needed
 # Secondary palette: supporting colors -------------------------------------------------------
-# lilac <- "#AB91A5"
-# blue_gray <- "#7492BF"
+#' @rdname Secondary
+#' @export
+second_yellow <- function(show_color = F) {
+  val = "#f8b434"
 
+  # display color
+  if(show_color){scales::show_col(val)}
+
+  return(val)
+}
+
+#' @rdname Secondary
+#' @export
+second_burgundy <- function(show_color = F) {
+  val = "#811e4d"
+
+  # display color
+  if(show_color){scales::show_col(val)}
+
+  return(val)
+}
+
+#' @rdname Secondary
+#' @export
+second_purple <- function(show_color = F) {
+  val = "#40144c"
+
+  # display color
+  if(show_color){scales::show_col(val)}
+
+  return(val)
+}
+
+#' @rdname Secondary
+#' @export
+second_light_blue <- function(show_color = F) {
+  val = "#60b0e2"
+
+  # display color
+  if(show_color){scales::show_col(val)}
+
+  return(val)
+}
+
+#' @rdname Secondary
+#' @export
+second_dark_teal <- function(show_color = F) {
+  val = "#085068"
+
+  # display color
+  if(show_color){scales::show_col(val)}
+
+  return(val)
+}
 
