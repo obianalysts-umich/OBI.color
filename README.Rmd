@@ -38,7 +38,7 @@ devtools::install_github("obianalysts-umich/OBI.color")
 Color names are based on this document. 
 
 - All three primary colors are named as `prim_`, and are combines in `primary_colors_4()`
-- Six secondary colors are in `secondary_colors_5()`
+- All Five primary colors are named as `second_`. Five secondary colors are in `secondary_colors_5()`
 
 ## Example: Use 4 primary colors
 
