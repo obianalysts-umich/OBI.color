@@ -37,3 +37,5 @@ vignettes/*.pdf
 .Rproj.user
 
 .DS_Store
+
+OBI.color.Rproj

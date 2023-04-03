@@ -16,7 +16,7 @@
 #' @export
 #' @rdname palettes
 primary_colors_4 <- function(show_color = F) {
-  pal <- c('#1e3668', '#3277b0', '#811e4d', '#009395')
+  pal <- c('#1e3668', '#3277b0', '#b64083', '#009395')
 
   # display color
   if(show_color){scales::show_col(pal, labels = F, n= 4)}
@@ -28,7 +28,7 @@ primary_colors_4 <- function(show_color = F) {
 #' @export
 #' @rdname palettes
 secondary_colors_5 <- function(show_color = F){
-  pal <- c('#f8b434', '#b64083', '#40144c', '#60b0e2','#085068')
+  pal <- c('#f8b434', '#811e4d', '#40144c', '#60b0e2','#085068')
 
   # display color
   if(show_color){scales::show_col(pal, labels = F, n= 5)}

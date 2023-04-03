@@ -34,7 +34,7 @@ prim_med_blue <- function(show_color = F) {
 #' @rdname Primary
 #' @export
 prim_pink <- function(show_color = F) {
-  val = "#811e4d"
+  val = "#b64083"
 
   # display color
   if(show_color){scales::show_col(val)}
