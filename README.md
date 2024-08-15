@@ -33,6 +33,10 @@ for reference.
 
 A CSS file that can be used to style reports is available [HERE](files/styles.css). 
 
+## Manual Style 
+
+A template for creating interpretation manuals or other documents to be posted on the OBI website is available [HERE](https://umhealth.sharepoint.com/:w:/r/sites/ObstetricsInitiativeTeamPortal/_layouts/15/Doc.aspx?sourcedoc=%7B3FD97FF2-AA89-4BA2-A7EF-65145E380298%7D&file=OBI%20Word%20Document%20Template%20(with%20BCBS%20logo%20&%20statement).docx=&action=default&mobileredirect=true).
+
 ## Naming convention
 
 Color names are based on this document.
