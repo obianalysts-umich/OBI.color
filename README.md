@@ -29,6 +29,10 @@ Please see this
 [SOP](https://docs.google.com/document/d/1IKCsZm4JK4Y8GATnl-yibHKvuNX5gkDL-yA5KdWbEiA/edit)
 for reference.
 
+## Report CSS file 
+
+A CSS file that can be used to style reports is available [HERE](files/styles.css). 
+
 ## Naming convention
 
 Color names are based on this document.

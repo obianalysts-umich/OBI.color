@@ -1,0 +1,87 @@
+.quarto-title-block .quarto-title-banner {
+  background-image: url(logo-2.png);
+  background-size: 60px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  background-origin: content-box;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  height: 90%;
+}
+
+h1.title {
+  margin-top: 10px;
+  text-align: center;
+  color: #1e3668;
+  font-family: Semplicita;
+  font-size: 24px;
+  font-family: Arial;
+  margin-bottom: 0;
+  margin-top:0;
+  padding: 0
+}
+
+p.subtitle {
+    color: #3277b0;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    margin-bottom: 0;
+    margin-top:0px;
+}
+
+h2 {
+  color: #3277b0;
+  font-family: Arial;
+  font-size: 24px;
+}
+
+h3 {
+  color: #3277b0;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+body {
+  color: #1e3668;
+  font-size: 12px;
+}
+
+.takeaways {
+  margin: 1em 0;
+  border: 1px solid lightgray;
+  border-left: 5px solid #009395; 
+  border-radius: 5px;
+}
+
+.takeaways-header {
+  margin-left: 0em;
+  padding-left:  40px;
+  padding-top:  5px;
+  padding-bottom: 0px;
+  color: #1e3668;
+  background-color: rgba(0, 147, 149, 0.1);
+  border-top-right-radius: 1px;
+  font-weight: bold;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-image: url("logo-2.png");
+}
+
+.takeaways-container {
+  padding-top: 0px;
+  padding-left: 5px;
+  background-color: white;
+  border-bottom-right-radius: 0px;
+}
+
+
+
+
+
+
+
+
